@@ -19,8 +19,8 @@ requirements:
 - [ ] allow user to end a conversation prematurely
 
 ## email
-- [ ] generate a generic email that can be sent to the user
-- [ ] populate email with data from one session
+- [x] generate a generic email that can be sent to the user
+- [x] populate email with data from one session
 - [ ] aggregate data from a week and send it in an email
 
 ## timed sending
