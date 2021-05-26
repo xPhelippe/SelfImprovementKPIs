@@ -10,9 +10,10 @@ class Person(models.Model):
     phoneNumber = models.CharField(max_length=12)
     firstName = models.CharField(max_length=30)
     lastName = models.CharField(max_length=40)
+    email = models.CharField(max_length=40,null=True,blank=True)
 
     def fullName(self):
-        return str(firstName + " " + lastName)
+        return str(self.firstName + " " + self.lastName)
 
     def __str__(self):
         return str(self.firstName + " " +  self.lastName)
@@ -77,4 +78,4 @@ class QuestionAnswer(models.Model):
     survey = models.ForeignKey(Survey, on_delete=models.CASCADE, related_name='questionanswer')
 
     def __str__(self):
-        return str(content)
+        return str(self.content)
