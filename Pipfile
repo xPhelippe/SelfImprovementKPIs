@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 django = "*"
 twilio = "*"
+django-dramatiq = "*"
+pika = "*"
+django-timezone-field = "*"
+arrow = "*"
+redis = "*"
 
 [dev-packages]
 

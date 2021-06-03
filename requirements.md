@@ -7,7 +7,6 @@ requirements:
 - send summary email to user at end of week
 
 
-
 ## texting 
 - [x] get a single responses from a user 
 - [x] store the response of a random user 
@@ -24,8 +23,8 @@ requirements:
 - [ ] aggregate data from a week and send it in an email
 
 ## timed sending
-- [ ] set up a timer to send the email
-- [ ] send a message to a arbitrary user at a specified time
+- [x] set up a timer to send the email
+- [X] send a message to a arbitrary user at a specified time
 - [ ] start a survey with a user at a specified time
 
 ## Allow user to modify their information
@@ -42,22 +41,22 @@ requirements:
 <QueryDict: {
     'ToCountry': ['US'], 
     'ToState': ['PA'], 
-    'SmsMessageSid': ['SM519f8283b28d83024591ab0292b0bd34'], 
+    'SmsMessageSid': [''], 
     'NumMedia': ['0'], 
-    'ToCity': ['PHILADELPHIA'], 
+    'ToCity': [''], 
     'FromZip': ['34292'], 
-    'SmsSid': ['SM519f8283b28d83024591ab0292b0bd34'], 
+    'SmsSid': [''], 
     'FromState': ['FL'], 
     'SmsStatus': ['received'], 
-    'FromCity': ['SARASOTA'], 
+    'FromCity': [''], 
     'Body': ['Test'], 
     'FromCountry': ['US'], 
-    'To': ['+12675329864'], 
+    'To': [''], 
     'ToZip': ['19110'], 
     'NumSegments': ['1'], 
-    'MessageSid': ['SM519f8283b28d83024591ab0292b0bd34'], 
-    'AccountSid': ['AC9c699500ef0938a95de018f957c0de3d'], 
-    'From': ['+19417265904'], 
+    'MessageSid': [''], 
+    'AccountSid': [''], 
+    'From': [''], 
     'ApiVersion': ['2010-04-01']
 }>
 ```

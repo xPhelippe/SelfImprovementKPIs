@@ -1,8 +1,9 @@
 from django.urls import path, include
-from .views import defaultView, showMessages, askQuestion, sendEmail
+from .views import showMessages, askQuestion, sendEmail, testTimed
 
 urlpatterns = [
     path('', askQuestion),
     path('messages/',showMessages),
-    path('sendEmail/<str:email>/<int:user_id>/',sendEmail,name='sendEmail')
+    path('sendEmail/<int:user_id>/',sendEmail,name='sendEmail'),
+    path('test/',testTimed,name='test')
 ]
